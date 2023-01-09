@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import ReactCalendar from "./components/ReactCalendar.js/ReactCalendar";
 import ReactBigCalendar from "./components/ReactBigCalendar/ReactBigCalendar";
+import FullCalendar from "./components/FullCalendar/FullCalendar";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <p>React Calendar Demos</p>
         <ReactCalendar />
         <ReactBigCalendar />
+        {/* <FullCalendar /> */}
       </header>
     </div>
   );
