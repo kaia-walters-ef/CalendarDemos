@@ -20,7 +20,7 @@ function App() {
 					<img src={logo} className="App-logo" alt="logo" />
 				</header>
 				<Container component='main' maxWidth='lg'>
-					<Stack spacing={8} mt={4}>
+					<Stack spacing={8} my={8}>
 						<Typography variant='h3' component='h1'>React Calendar Demos</Typography>
 						<ReactCalendar />
 						<ReactBigCalendar />
