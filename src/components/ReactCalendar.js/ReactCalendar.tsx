@@ -275,7 +275,6 @@ const CalendarDay = ({ date, view }) => {
 		const eventDT = new Date(e.startDate);
 		const calendarDate = new Date(calendarDT.getUTCFullYear(), calendarDT.getUTCMonth(), calendarDT.getUTCDate()).getTime();
 		const eventDate = new Date(eventDT.getUTCFullYear(), eventDT.getUTCMonth(), eventDT.getUTCDate()).getTime();
-		console.log(`eventDate: ${eventDate}, calendarDate: ${calendarDate}, date: ${JSON.stringify(date)}`);
 		return calendarDate === eventDate;
 	});
 
