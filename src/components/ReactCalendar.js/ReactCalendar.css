@@ -1,13 +1,13 @@
 .react-calendar .react-calendar__tile {
-    display: inline-flex;
-    flex-direction: column;
-	justify-content: flex-start;
-	padding: 0;
-	background-color: white;
-	border-width: 1px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  background-color: white;
+  border-width: 1px;
 }
 
 .react-calendar abbr {
-    display: inline-flex;
-	align-self: stretch;
+  display: inline-flex;
+  align-self: stretch;
 }

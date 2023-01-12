@@ -12,24 +12,24 @@ import { lightTheme } from '@eftours/material-ui-gud';
 import CssBaseline from '@mui/material/CssBaseline';
 
 function App() {
-	return (
-		<div className="App">
-			<ThemeProvider theme={lightTheme}>
-				<CssBaseline enableColorScheme />
-				<header className="App-header">
-					<img src={logo} className="App-logo" alt="logo" />
-				</header>
-				<Container component='main' maxWidth='lg'>
-					<Stack spacing={8} my={8}>
-						<Typography variant='h3' component='h1'>React Calendar Demos</Typography>
-						<ReactCalendar />
-						<ReactBigCalendar />
-					</Stack>
-					{/* <FullCalendar /> */}
-				</Container>
-			</ThemeProvider>
-		</div>
-	);
+  return (
+    <div className="App">
+      <ThemeProvider theme={lightTheme}>
+        <CssBaseline enableColorScheme />
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+        </header>
+        <Container component='main' maxWidth='lg'>
+          <Stack spacing={8} my={8}>
+            <Typography variant='h3' component='h1'>React Calendar Demos</Typography>
+            <ReactCalendar />
+            <ReactBigCalendar />
+          </Stack>
+          {/* <FullCalendar /> */}
+        </Container>
+      </ThemeProvider>
+    </div>
+  );
 }
 
 export default App;
